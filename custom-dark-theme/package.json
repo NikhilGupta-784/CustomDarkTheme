@@ -1,0 +1,22 @@
+{
+    "name": "Custom-dark-theme",
+    "displayName": "custom_dark_theme ",
+    "description": "custom theme for vs code ",
+    "version": "0.0.1",
+    "publisher": "Nik-zz7",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Custom Theme ",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Custom Theme -color-theme.json"
+            }
+        ]
+    }
+}
